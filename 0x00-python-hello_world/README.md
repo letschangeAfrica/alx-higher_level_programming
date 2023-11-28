@@ -1,0 +1,1 @@
+A first step in my Python journey 0x00-python-hello_world
