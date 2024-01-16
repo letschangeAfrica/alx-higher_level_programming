@@ -50,8 +50,8 @@ class SinglyLinkedList:
                     and not add_start:
                 tmp = tmp.next_node
             if not add_start:
-                    new.next_node = tmp.next_node
-                    tmp.next_node = new
+                new.next_node = tmp.next_node
+                tmp.next_node = new
             else:
                 new.next_node = tmp
                 self.__head = new
